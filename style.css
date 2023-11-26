@@ -1,0 +1,114 @@
+.firstBlock{
+    color: white;
+    background-color: #1F2937;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    padding-bottom: 100px;
+}
+
+.header{
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    flex: auto;
+    padding-bottom: 20px;
+}
+
+.logo{
+    font-weight: 2000;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    flex: auto;
+    align-items: center;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+.firstContent{
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    height: 200px;
+    flex-grow: auto;
+}
+
+img{
+    max-width: 40%;
+}
+
+button{
+    background-color: #3882F6;
+    color: white;
+    padding: 5px;
+    border-radius: 10px;
+    width: 30%;
+    border: none;
+    outline: none;
+    box-shadow: none;
+    margin-top: 8px;
+}
+
+.firstText{
+    width: 40%;
+    padding-right: 20px;
+}
+
+.awesomeFont{
+    font-size: 48px;
+    font-weight: bolder;
+}
+
+.links{
+    display: flex;
+    gap: 16px;
+}
+
+
+
+
+
+.secondBlock{
+    background-color: white;
+    color: black;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    padding-bottom: 100px;
+    padding-top: 30px;
+}
+
+.randomInfo{
+    font-size: 36px;
+    font-weight: bolder;
+    padding-bottom: 50px;
+}
+.cards{
+    display: flex;
+    justify-content: space-between;
+    width: 70%;
+}
+
+.card{
+    width: 150px;
+    height: 150px;
+    border: 4px solid;
+    border-radius: 14px;
+    border-color: #3882F6;
+    
+}
+.cardSize{
+    width: 150px;
+    text-align: center;
+}
