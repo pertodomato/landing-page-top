@@ -14,7 +14,7 @@
     display: flex;
     justify-content: space-between;
     flex: auto;
-    padding-bottom: 20px;
+    padding-bottom: 80px;
 }
 
 .logo{
@@ -111,4 +111,75 @@ button{
 .cardSize{
     width: 150px;
     text-align: center;
+}
+
+
+
+.thirdBlock{
+    background-color: #E5E7EB;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.inspiringQuote{
+    width: 60%;
+    color: #1F2937;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+}
+
+.thor{
+    width: 55%;
+    text-align: end;
+    font-weight: bold;
+    font-size: 19px;
+}
+
+
+
+.fourthBlock{
+    width: 100%;
+    padding: 20px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.blueBox{
+    width: 70%;
+    display: flex;
+    align-items: center;
+    padding: 30px;
+    justify-content: space-between;
+    background-color: #3882F6;
+    box-sizing: border-box;
+    color: #E5E7EB;
+    
+}
+
+.blueBoxContent{
+    display: flex;
+    flex-direction: column;
+}
+
+.buttonFourth{
+    border: 2px solid #E5E7EB;
+    width: 15%;
+}
+
+
+.fifthBlock{
+    width: 100%;
+    background-color: #1F2937;
+    color: #E5E7EB;
+    text-align: center;
+    padding: 20px;
 }
